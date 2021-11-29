@@ -55,7 +55,7 @@ int main()
     x_current[1][0] = -0.5;
 
     double norm = 1.0;
-    double eps = 10e-3;    
+    double eps = 1e-3;    
 
     A(x_current[0][0], x_current[1][0], matrix_A);
 
